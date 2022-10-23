@@ -37,5 +37,5 @@ int main()
 {
         sorted b;
         b.getdata();
-getch();
+retun 0;
 }
