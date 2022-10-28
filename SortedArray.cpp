@@ -1,19 +1,19 @@
 #include<iostream>
 
 #include<conio.h>
-
+#include<math.h>
 using namespace std;
-class sorted {
+class Sorted {
   int a[1000];
   public:
     void getdata() {
       int n;
       cout << "Enter the number of terms: ";
       cin >> n;
-      cout << "Enter the terms: ";
+      cout << "Enter the terms: \n";
       for (int i = 0; i < n; i++)
         cin >> a[i];
-      cout << "unsorted array:";
+      cout << "Unsorted array:";
       for (int i = 0; i < n; i++)
         cout << a[i] << ",";
       for (int i = 0; i < n; i++) {
@@ -26,13 +26,13 @@ class sorted {
           }
         }
       }
-      cout << endl << "sorted array: ";
+      cout << endl << "Sorted array: \n";
       for (int i = 0; i < n; i++)
         cout << a[i] << ",";
     }
 };
 int main() {
-  sorted b;
+  Sorted b;
   b.getdata();
   retun 0;
 }
