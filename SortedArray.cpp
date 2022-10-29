@@ -8,7 +8,7 @@ class Sorting {
   public:
     void getdata() {
       int n;
-      cout << "Enter the number of terms you want to sort: ";
+      cout << "Enter the number of terms you want to get sort: ";
       cin >> n;
       cout << "Enter the terms: ";
       for (int i = 0; i < n; i++)
