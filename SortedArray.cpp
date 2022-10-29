@@ -3,7 +3,7 @@
 #include<conio.h>
 #include<math.h>
 using namespace std;
-class Sorted {
+class Sorting {
   int a[1000];
   public:
     void getdata() {
@@ -32,7 +32,7 @@ class Sorted {
     }
 };
 int main() {
-  Sorted b;
+  Sorting b;
   b.getdata();
   retun 0;
 }
