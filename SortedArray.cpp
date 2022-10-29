@@ -4,16 +4,16 @@
 #include<math.h>
 using namespace std;
 class Sorting {
-  int a[1000];
+  int a[2000];
   public:
     void getdata() {
       int n;
-      cout << "Enter the number of terms: ";
+      cout << "Enter the number of terms you want to sort: ";
       cin >> n;
-      cout << "Enter the terms: \n";
+      cout << "Enter the terms: ";
       for (int i = 0; i < n; i++)
         cin >> a[i];
-      cout << "Unsorted array:";
+      cout << "Unsorted Array=";
       for (int i = 0; i < n; i++)
         cout << a[i] << ",";
       for (int i = 0; i < n; i++) {
@@ -26,7 +26,7 @@ class Sorting {
           }
         }
       }
-      cout << endl << "Sorted array: \n";
+      cout << endl << "Sorted Array= \n";
       for (int i = 0; i < n; i++)
         cout << a[i] << ",";
     }
