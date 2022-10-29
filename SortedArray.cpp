@@ -34,5 +34,5 @@ class Sorting {
 int main() {
   Sorting b;
   b.getdata();
-  retun 0;
+  return 0;
 }
