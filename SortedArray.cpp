@@ -2,6 +2,8 @@
 #include<stdio.h>
 #include<conio.h>
 #include<math.h>
+#include<format>
+#include<algorithm>
 using namespace std;
 class Sorting {
   int a[2000];
